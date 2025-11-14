@@ -9,7 +9,6 @@ public class GradesAndPoints {
         System.out.println(" Give points [0-100]: ");
         int points = Integer.valueOf(scanner.nextLine());
 
-
         if (points < 0) {
             System.out.println("impossible!");
         } else if  (points >= 0 && points <= 49) {
